@@ -1,0 +1,7 @@
+text_3 = input()
+print("your favorite simvol")
+users_simvol = input()
+text_3 = text_3.replace(",", "")
+text_3 = text_3.replace("!", "")
+text_3 = users_simvol.join(text_3)
+print(text_3)
